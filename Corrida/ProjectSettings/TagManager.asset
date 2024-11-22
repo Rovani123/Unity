@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
+  - Coin
   layers:
   - Default
   - TransparentFX
@@ -40,4 +42,28 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: 1
+    uniqueID: 271792047
+    locked: 0
+  - name: 2
+    uniqueID: 1807186207
+    locked: 0
+  - name: 3
+    uniqueID: 4157518267
+    locked: 0
+  - name: 4
+    uniqueID: 742658677
+    locked: 0
+  - name: 5
+    uniqueID: 2810576485
+    locked: 0
+  - name: 6
+    uniqueID: 290496483
+    locked: 0
+  - name: 7
+    uniqueID: 1408507681
+    locked: 0
+  - name: 8
+    uniqueID: 3975223649
     locked: 0
