@@ -27,10 +27,10 @@ public class DestroyScript : MonoBehaviour
         }
         else
         {
-            if (outro.gameObject.transform.parent)
-                Destroy(outro.gameObject.transform.parent.gameObject);
-            else
-                Destroy(outro.gameObject);
+            // if (outro.gameObject.transform.parent)
+            //     Destroy(outro.gameObject.transform.parent.gameObject);
+            // else
+            Destroy(outro.gameObject);
         }
     }
 }
