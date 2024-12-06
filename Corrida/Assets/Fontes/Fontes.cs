@@ -9,5 +9,6 @@ public class Fontes : MonoBehaviour
     https://pzuh.itch.io/free-desert-platformer-tileset
     https://craftpix.net/freebies/free-gangster-pixel-character-sprite-sheets-pack/
     https://otr91000010.itch.io/cactus-packa
+    https://assetstore.unity.com/packages/2d/gui/icons/food-icons-pack-70018
     */
 }

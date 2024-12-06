@@ -21,6 +21,8 @@ namespace Platformer
         private Animator animator;
         private GameManager gameManager;
 
+        private Placar placar;
+
         void Start()
         {
             rigidbody = GetComponent<Rigidbody2D>();
@@ -31,6 +33,7 @@ namespace Platformer
         private void FixedUpdate()
         {
             CheckGround();
+
         }
 
         void Update()
@@ -98,11 +101,13 @@ namespace Platformer
 
         private void OnTriggerEnter2D(Collider2D other)
         {
-            if (other.gameObject.tag == "Coin")
+            if (other.gameObject.tag == "Item")
             {
-                gameManager.coinsCounter += 1;
+                placar = GameObject.Find("Gerenciador").GetComponent<Placar>();
+                placar.pontuar(25);
                 Destroy(other.gameObject);
             }
+
         }
     }
 }

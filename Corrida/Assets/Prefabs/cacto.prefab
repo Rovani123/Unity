@@ -10,11 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8953960972414282411}
   - component: {fileID: 5489110750367497291}
-  - component: {fileID: 2664288771972349572}
   - component: {fileID: 4388155097309888768}
   m_Layer: 0
   m_Name: cacto
-  m_TagString: Plataforma
+  m_TagString: Obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -86,19 +85,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2664288771972349572
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 276921017242500746}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f57e2d9b3bf1ac646881fee551389093, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  GameOver: {fileID: 0}
 --- !u!60 &4388155097309888768
 PolygonCollider2D:
   m_ObjectHideFlags: 0

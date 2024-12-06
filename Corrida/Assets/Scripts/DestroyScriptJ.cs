@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DestroyScriptJ : MonoBehaviour
 {
-    public Canvas GameOver;
+    public GameObject GameOver;
     void Start()
     {
         GameOver.gameObject.SetActive(false);
@@ -19,22 +19,14 @@ public class DestroyScriptJ : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D outro)
     {
 
-        if(outro.gameObject.tag == "Player")
+        if(outro.gameObject.tag == "Obstaculo")
         {
-            Time.timeScale = 0;
             GameOver.gameObject.SetActive(true);
+            Time.timeScale = 0;
             return;
         }
-        else
-        {
-            // if (outro.gameObject.transform.parent)
-            //     Destroy(outro.gameObject.transform.parent.gameObject);
-            // else
-            if(outro.gameObject.tag == "Player"){
-                Destroy(outro.gameObject);
-            }
-        }
     }
+
 }
 
 

@@ -10,6 +10,8 @@ public class Placar : MonoBehaviour
     public TMP_Text mostradorRecorde;
     private int placar;
     private int recorde;
+
+    private PlayerController script;
     void Start()
     {
         placar = 0;
@@ -18,6 +20,11 @@ public class Placar : MonoBehaviour
         mostradorRecorde.text = "Recorde: " + recorde;
 
         InvokeRepeating("pontua", 0.3f, 0.3f);
+    }
+
+    void Update()
+    {
+        aumentarVel();
     }
 
     void pontua()
@@ -30,5 +37,18 @@ public class Placar : MonoBehaviour
         }
         mostrador.text = placar+"";
         mostradorRecorde.text = "Recorde: " + recorde;
+    }
+
+    public void pontuar(int i)
+    {
+        placar += i;
+    }
+
+    public void aumentarVel()
+    {
+        if(placar > 100)
+        {
+
+        }
     }
 }
