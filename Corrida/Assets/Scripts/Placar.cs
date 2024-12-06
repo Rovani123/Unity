@@ -14,6 +14,7 @@ public class Placar : MonoBehaviour
     private PlayerController script;
     void Start()
     {
+        script = GameObject.Find("Jogador").GetComponent<PlayerController>();
         placar = 0;
         recorde = PlayerPrefs.GetInt("recorde", 0);
 
@@ -46,9 +47,12 @@ public class Placar : MonoBehaviour
 
     public void aumentarVel()
     {
-        if(placar > 100)
+        if(placar > 200 && placar <300)
         {
-
+            script.movingSpeed = 6;
+        }else if(placar > 300)
+        {
+            script.movingSpeed = 7;
         }
     }
 }

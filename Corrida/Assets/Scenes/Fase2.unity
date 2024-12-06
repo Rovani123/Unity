@@ -1807,6 +1807,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GameOver: {fileID: 7358577165323598167}
+--- !u!114 &232753234118645458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 232753234118645451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f91f726dadc0756418098441dfb463d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tagObjetos: Item
+  objetoAlvo: {fileID: 1475580721}
+  velocidadeAtracao: 10
 --- !u!1001 &2488294192357184855
 PrefabInstance:
   m_ObjectHideFlags: 0

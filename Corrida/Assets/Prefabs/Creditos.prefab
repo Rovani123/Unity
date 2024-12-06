@@ -962,7 +962,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "    https://assetstore.unity.com/packages/2d/environments/free-2d-cartoon-parallax-background-205812\r\n   
     https://pzuh.itch.io/free-desert-platformer-tileset\r\n    https://craftpix.net/freebies/free-gangster-pixel-character-sprite-sheets-pack/\r\n   
-    https://otr91000010.itch.io/cactus-packa\r\n    https://assetstore.unity.com/packages/2d/gui/icons/food-icons-pack-70018"
+    https://otr91000010.itch.io/cactus-packa\r\n    https://assetstore.unity.com/packages/2d/gui/icons/food-icons-pack-70018\r\n   
+    https://www.shutterstock.com/pt/image-vector/isolated-flat-3d-magnet-icon-game-2366996467"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -989,7 +990,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 28
+  m_fontSize: 23.05
   m_fontSizeBase: 70
   m_fontWeight: 400
   m_enableAutoSizing: 1

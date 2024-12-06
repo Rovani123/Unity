@@ -10,6 +10,7 @@ TagManager:
   - GameOver
   - Obstaculo
   - Item
+  - ima
   layers:
   - Default
   - TransparentFX

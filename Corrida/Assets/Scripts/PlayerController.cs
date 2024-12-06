@@ -22,9 +22,12 @@ namespace Platformer
         private GameManager gameManager;
 
         private Placar placar;
-
+        private AtrairObjetos atrair;
         void Start()
         {
+            atrair = GameObject.Find("Jogador").GetComponent<AtrairObjetos>();
+            atrair.enabled = false;
+            placar = GameObject.Find("Gerenciador").GetComponent<Placar>();
             rigidbody = GetComponent<Rigidbody2D>();
             animator = GetComponent<Animator>();
             //gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
@@ -103,8 +106,12 @@ namespace Platformer
         {
             if (other.gameObject.tag == "Item")
             {
-                placar = GameObject.Find("Gerenciador").GetComponent<Placar>();
                 placar.pontuar(25);
+                Destroy(other.gameObject);
+            }
+            if(other.gameObject.tag == "ima")
+            {
+                atrair.enabled = true;
                 Destroy(other.gameObject);
             }
 
