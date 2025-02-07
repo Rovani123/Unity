@@ -58,8 +58,8 @@ public class Tacada : MonoBehaviour
                 if (t.phase == TouchPhase.Moved)
                 {
                     pf = t.position;
-                    x = (pi.x - pf.x) * 0.03f;
-                    z = (pi.y - pf.y) * 0.03f;
+                    x = (pi.x - pf.x) * 0.06f;
+                    z = (pi.y - pf.y) * 0.06f;
                     if (x > maxX)
                         x = maxX;
                     if (z > maxZ)
@@ -71,6 +71,10 @@ public class Tacada : MonoBehaviour
                 {
                     GetComponent<Rigidbody>().AddForce(new Vector3(2 * x, 0, 2 * z), ForceMode.Impulse);
                     lr.enabled = false;
+                    if (GameManager.gm)
+                    {
+                        GameManager.gm.tacada();
+                    }
                 }
             }
         }

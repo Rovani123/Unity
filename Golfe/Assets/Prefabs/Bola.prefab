@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 296246102886303579}
   - component: {fileID: 296246102886303578}
   - component: {fileID: 296246102886303569}
-  - component: {fileID: 296246102886303575}
   - component: {fileID: 296246102886303568}
   m_Layer: 0
   m_Name: Bola
@@ -129,22 +128,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e84d30d13a497654ea39de6db6724f6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxX: 10
-  maxZ: 10
---- !u!114 &296246102886303575
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 296246102886303577}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 75f7db9eb0a77e64d9289de20371c735, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  x: 0
-  y: -20
+  maxX: 40
+  maxZ: 40
 --- !u!120 &296246102886303568
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -206,7 +191,7 @@ LineRenderer:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 1
-        value: 0
+        value: 0.39455095
         inSlope: 0
         outSlope: 0
         tangentMode: 0

@@ -68,7 +68,6 @@ public class GameManager : MonoBehaviour
         }else{
             recordetxt.text += recorde;
         }
-
     }
 
 }
