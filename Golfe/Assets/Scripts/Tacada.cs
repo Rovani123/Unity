@@ -58,8 +58,8 @@ public class Tacada : MonoBehaviour
                 if (t.phase == TouchPhase.Moved)
                 {
                     pf = t.position;
-                    x = (pi.x - pf.x) * 0.06f;
-                    z = (pi.y - pf.y) * 0.06f;
+                    x = (pi.x - pf.x) * 0.10f;
+                    z = (pi.y - pf.y) * 0.10f;
                     if (x > maxX)
                         x = maxX;
                     if (z > maxZ)
