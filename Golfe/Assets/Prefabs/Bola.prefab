@@ -15,9 +15,10 @@ GameObject:
   - component: {fileID: 296246102886303578}
   - component: {fileID: 296246102886303569}
   - component: {fileID: 296246102886303568}
+  - component: {fileID: 782628390}
   m_Layer: 0
   m_Name: Bola
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -94,7 +95,7 @@ SphereCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 296246102886303577}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: db1f0d88fd83bcf48a8c6e13683515f2, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -128,8 +129,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e84d30d13a497654ea39de6db6724f6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxX: 40
-  maxZ: 40
+  maxX: 30
+  maxZ: 30
 --- !u!120 &296246102886303568
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -191,7 +192,7 @@ LineRenderer:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 1
-        value: 0.39455095
+        value: 0.48979187
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -238,3 +239,17 @@ LineRenderer:
     generateLightingData: 0
   m_UseWorldSpace: 1
   m_Loop: 0
+--- !u!114 &782628390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 296246102886303577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1bff208d03204d4485d051c5f9486ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkYPosition: -10
+  teleportPosition: {x: 0, y: 100, z: 0}

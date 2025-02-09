@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Tacada : MonoBehaviour
 {
+    public Teleporte teleportescript;
+    private GameObject bola;
     public float maxX, maxZ;
     private float x, z;
     private Vector2 pi;
@@ -16,6 +18,8 @@ public class Tacada : MonoBehaviour
     // Inicialização
     void Start()
     {
+        teleportescript = GetComponent<Teleporte>();
+        bola = GameObject.FindWithTag("Player");
         lr = GetComponent<LineRenderer>();
         rb = GetComponent<Rigidbody>();
         if (lr == null)
@@ -75,6 +79,7 @@ public class Tacada : MonoBehaviour
                     {
                         GameManager.gm.tacada();
                     }
+                    teleportescript.setPosition(bola.transform.position);
                 }
             }
         }
