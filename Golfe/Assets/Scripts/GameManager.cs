@@ -34,7 +34,6 @@ public class GameManager : MonoBehaviour
 
     public void tacada()
     {
-        Debug.Log(tacadas);
         tacadas++;
         textTacadas.text = "Tacadas: "+ tacadas;
     }
