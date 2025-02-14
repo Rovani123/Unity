@@ -421,13 +421,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53ef7030c612ff546998b47939d852e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fase: 0
+  fase: 4
   tela: {fileID: 972878644}
   telafinal: {fileID: 1063475080}
   textTacadas: {fileID: 1607352294}
   textPar: {fileID: 302861980}
   tacadas: 0
-  par: 3
+  par: 5
   partxt: {fileID: 1948506632}
   tacadastxt: {fileID: 1364793524}
   recordetxt: {fileID: 1151199476}

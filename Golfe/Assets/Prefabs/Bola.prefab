@@ -129,8 +129,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e84d30d13a497654ea39de6db6724f6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxX: 30
-  maxZ: 30
+  maxX: 25
+  maxZ: 25
 --- !u!120 &296246102886303568
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -252,4 +252,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   checkYPosition: -10
-  teleportPosition: {x: 0, y: 100, z: 0}

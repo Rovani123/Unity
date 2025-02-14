@@ -1941,13 +1941,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53ef7030c612ff546998b47939d852e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fase: 0
+  fase: 6
   tela: {fileID: 725364838}
   telafinal: {fileID: 797838920}
   textTacadas: {fileID: 202073071}
   textPar: {fileID: 1798663378}
   tacadas: 0
-  par: 3
+  par: 6
   partxt: {fileID: 331206507}
   tacadastxt: {fileID: 1285453056}
   recordetxt: {fileID: 1007651028}

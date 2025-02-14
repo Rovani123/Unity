@@ -2331,13 +2331,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53ef7030c612ff546998b47939d852e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fase: 0
+  fase: 2
   tela: {fileID: 522605362}
   telafinal: {fileID: 924260109}
   textTacadas: {fileID: 176236732}
   textPar: {fileID: 147870906}
   tacadas: 0
-  par: 3
+  par: 4
   partxt: {fileID: 564687636}
   tacadastxt: {fileID: 780711605}
   recordetxt: {fileID: 1510583582}

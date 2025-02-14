@@ -714,13 +714,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53ef7030c612ff546998b47939d852e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fase: 0
+  fase: 5
   tela: {fileID: 718379596}
   telafinal: {fileID: 1140391305}
   textTacadas: {fileID: 1469516951}
   textPar: {fileID: 92500913}
   tacadas: 0
-  par: 3
+  par: 6
   partxt: {fileID: 41768595}
   tacadastxt: {fileID: 116254580}
   recordetxt: {fileID: 703644091}
