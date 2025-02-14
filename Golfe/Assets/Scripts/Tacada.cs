@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Tacada : MonoBehaviour
 {
-    public Teleporte teleportescript;
+    private Teleporte teleportescript;
     private GameObject bola;
     public float maxX, maxZ;
     private float x, z;
