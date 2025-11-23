@@ -1,20 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Platformer;
 
 public class CameraScript : MonoBehaviour
 {
-    public Transform Player;
-
-    // Start is called before the first frame update
+    private Player script;
+    
     void Start()
     {
-
+        script = GameObject.Find("Jogador").GetComponent<Player>();
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
-        transform.position = new Vector3(Player.position.x, 0, -10);
+        Vector3 direction = transform.right;
+        transform.position = Vector3.MoveTowards(transform.position, transform.position + direction, script.getvelocidadeTotal() * Time.deltaTime);
     }
 }

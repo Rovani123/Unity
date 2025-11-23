@@ -5,6 +5,7 @@ using UnityEngine;
 public class DestroyScript : MonoBehaviour
 {
     public Canvas GameOver;
+    public bool destruiroutros;
     void Start()
     {
         GameOver.gameObject.SetActive(false);
@@ -27,10 +28,9 @@ public class DestroyScript : MonoBehaviour
         }
         else
         {
-            // if (outro.gameObject.transform.parent)
-            //     Destroy(outro.gameObject.transform.parent.gameObject);
-            // else
-            Destroy(outro.gameObject);
+            if(destruiroutros){
+                Destroy(outro.gameObject);
+            }
         }
     }
 }

@@ -10,11 +10,11 @@ public class Placar : MonoBehaviour
     public TMP_Text mostradorRecorde;
     private int placar;
     private int recorde;
-
-    private PlayerController script;
+    private Player script;
+    
     void Start()
     {
-        script = GameObject.Find("Jogador").GetComponent<PlayerController>();
+        script = GameObject.Find("Jogador").GetComponent<Player>();
         placar = 0;
         recorde = PlayerPrefs.GetInt("recorde", 0);
 
@@ -49,10 +49,10 @@ public class Placar : MonoBehaviour
     {
         if(placar > 200 && placar <300)
         {
-            script.movingSpeed = 6;
+            script.velocidadeTotal = 6;
         }else if(placar > 300)
         {
-            script.movingSpeed = 7;
+            script.velocidadeTotal = 7;
         }
     }
 }

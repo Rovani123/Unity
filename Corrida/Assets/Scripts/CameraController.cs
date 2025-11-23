@@ -6,6 +6,7 @@ namespace Platformer
 {
     public class CameraController : MonoBehaviour
     {
+        /*
         public float damping = 1.5f; // movement speed
         public Vector2 offset = new Vector2(0f, 0f); // special effect if you want the character to be not in center of screen
         public bool faceLeft; //  mirror reflection of OFFSET along the y axis
@@ -47,7 +48,7 @@ namespace Platformer
                 Vector3 currentPosition = Vector3.Lerp(transform.position, target, damping * Time.deltaTime);
                 transform.position = currentPosition;
             }
-        }
+        }*/
     }
 }
 

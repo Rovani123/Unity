@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 9053092933314315611}
   - component: {fileID: 56630124146203981}
   - component: {fileID: 2662940291028096397}
-  - component: {fileID: 3551111434045873689}
+  - component: {fileID: 1030236564034979676}
   m_Layer: 5
   m_Name: Text (Legacy)
   m_TagString: Untagged
@@ -69,7 +69,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 35
+    m_FontSize: 50
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
@@ -81,7 +81,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Jogar Novamente
---- !u!114 &3551111434045873689
+--- !u!114 &1030236564034979676
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -90,10 +90,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1190383042278301695}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd94e305179a38949b1a7e5dc676dde0, type: 3}
+  m_Script: {fileID: 11500000, guid: 086908bedadb2d845beafca44695bca8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LevelToLoad: Fase2
+  carregarNivel: Fase1
 --- !u!1 &2195138681870882866
 GameObject:
   m_ObjectHideFlags: 0
@@ -131,8 +131,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -195.4}
-  m_SizeDelta: {x: 200, y: 100}
+  m_AnchoredPosition: {x: 0, y: -250}
+  m_SizeDelta: {x: 300, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &57977409823768966
 CanvasRenderer:
@@ -216,7 +216,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2603227530433387512}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UIButtonLevelLoad, Assembly-CSharp
         m_MethodName: loadLevel
         m_Mode: 1
@@ -265,8 +265,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -90.3}
-  m_SizeDelta: {x: 200, y: 100}
+  m_AnchoredPosition: {x: 0, y: -50}
+  m_SizeDelta: {x: 300, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3246249112850332360
 CanvasRenderer:
@@ -350,7 +350,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3551111434045873689}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UIButtonLevelLoad, Assembly-CSharp
         m_MethodName: loadLevel
         m_Mode: 1
@@ -373,7 +373,7 @@ GameObject:
   - component: {fileID: 4904788897878976154}
   - component: {fileID: 5046504174514076932}
   - component: {fileID: 7587715460988038983}
-  - component: {fileID: 2603227530433387512}
+  - component: {fileID: 5589289227842146409}
   m_Layer: 5
   m_Name: Text (Legacy)
   m_TagString: Untagged
@@ -431,7 +431,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 40
+    m_FontSize: 50
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
@@ -443,7 +443,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: TelaInicial
---- !u!114 &2603227530433387512
+--- !u!114 &5589289227842146409
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -452,10 +452,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 3831707533150233505}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd94e305179a38949b1a7e5dc676dde0, type: 3}
+  m_Script: {fileID: 11500000, guid: 086908bedadb2d845beafca44695bca8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LevelToLoad: TelaInicial
+  carregarNivel: TelaInicial
 --- !u!1 &7358577164834246014
 GameObject:
   m_ObjectHideFlags: 0
@@ -491,8 +491,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 14.0593}
-  m_SizeDelta: {x: 409.7248, y: 71.8815}
+  m_AnchoredPosition: {x: 0, y: 100}
+  m_SizeDelta: {x: 500, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7358577164834246013
 CanvasRenderer:
@@ -549,7 +549,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 64.3
+  m_fontSize: 72
   m_fontSizeBase: 80
   m_fontWeight: 400
   m_enableAutoSizing: 1
